@@ -23,3 +23,9 @@ img {
 .fw-bold {
     text-decoration: none;
 }
+
+.card-title, .fw-bold {
+    text-align: center;
+    position: relative;
+    left: -50px;
+}
