@@ -7,9 +7,9 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { homepage } from './homepage/homepage.component';
 import { projects } from './projects/projects.component';
 import { resume } from './resume/resume.component';
-import { socials } from './socials/socials.component';
+import { links } from './links/links.component';
 import { navbar } from './navbar/navbar.component';
-import { socialcard } from './socials/social-card/social-card.component';
+import { linkcard } from './links/link-card/link-card.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +17,9 @@ import { socialcard } from './socials/social-card/social-card.component';
     homepage,
     projects,
     resume,
-    socials,
+    links,
     navbar,
-    socialcard
+    linkcard
   ],
   imports: [
     BrowserModule,

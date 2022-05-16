@@ -1,4 +1,4 @@
-export const socials_list=[
+export const link_list=[
 
 // GitHub
 {

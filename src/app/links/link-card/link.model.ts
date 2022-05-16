@@ -1,4 +1,4 @@
-export class socialsmodels {
+export class linkmodels {
     img: string;
     site: string;
     link: string;

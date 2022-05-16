@@ -1,0 +1,7 @@
+<h1>Connect with me at:</h1>
+
+<div class="col" id="socials">
+    <div *ngFor="let link of links">
+        <link-card img={{link.img}} site={{link.site}} link={{link.link}} username={{link.username}}></link-card>
+    </div>
+</div>

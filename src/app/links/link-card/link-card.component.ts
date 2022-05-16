@@ -1,12 +1,12 @@
 import { Component, Input } from "@angular/core";
 
 @Component({
-    selector: 'social-card',
-    templateUrl: 'social-card.component.html',
-    styleUrls: ['social-card.component.css']
+    selector: 'link-card',
+    templateUrl: 'link-card.component.html',
+    styleUrls: ['link-card.component.css']
 })
 
-export class socialcard {
+export class linkcard {
     @Input()    img: string;
     @Input()    site: string;
     @Input()    link: string;
