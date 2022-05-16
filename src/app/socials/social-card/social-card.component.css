@@ -1,0 +1,25 @@
+img {
+    height: 100px;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+.card {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+}
+
+.fw-bold {
+    text-decoration: none;
+}

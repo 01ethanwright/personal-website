@@ -10,12 +10,12 @@ export class socialcard {
     @Input()    img: string;
     @Input()    site: string;
     @Input()    link: string;
-    @Input()    at: string;   
+    @Input()    username: string;   
 
     constructor() {
         this.img = "";
         this.site = "Website";
-        this.link = "www.google.com"
-        this.at = "At";
+        this.link = ""
+        this.username = "username";
     }
 }

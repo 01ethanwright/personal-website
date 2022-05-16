@@ -1,7 +1,7 @@
-<h1>Connect with me!</h1>
+<h1>Connect with me at:</h1>
 
 <div class="col" id="socials">
-    <div *ngFor="let site of socials">
-        
+    <div *ngFor="let social of socials">
+        <social-card img={{social.img}} site={{social.site}} link={{social.link}} username={{social.username}}></social-card>
     </div>
 </div>
