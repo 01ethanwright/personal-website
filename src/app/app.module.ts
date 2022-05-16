@@ -9,6 +9,8 @@ import { resume } from './resume/resume.component';
 import { socials } from './socials/socials.component';
 import { navbar } from './navbar/navbar.component';
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { navbar } from './navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

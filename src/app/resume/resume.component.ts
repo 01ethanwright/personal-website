@@ -7,5 +7,5 @@ import { Component } from "@angular/core";
 })
 
 export class resume {
-    
+    pdfSrc = "assets/resume.pdf";
 }

@@ -1,0 +1,10 @@
+pdf-viewer {
+    border: 3px black solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    padding: 50px 0px 25px 50px;
+    text-align: center;
+}
