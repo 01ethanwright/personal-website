@@ -7,15 +7,17 @@ import { Component, Input } from "@angular/core"
 })
 
 export class projectcard {
-    @Input()    name: string;
-    @Input()    description: string;
-    @Input()    link: string;
-    @Input()    type: string;
+    @Input()    name:string;
+    @Input()    url:string;
+    @Input()    description:string;
+    @Input()    languages:string;
+    @Input()    pushed:string;
 
     constructor() {
         this.name = "";
+        this.url = "";
         this.description = "";
-        this.link = "";
-        this.type = "";
+        this.languages = "";
+        this.pushed = "";
     }
 }

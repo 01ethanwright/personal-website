@@ -10,7 +10,8 @@ import { projectmodel } from "./project-card/project.model";
 })
 
 export class projects {
-    projects: projectmodel[] = [];
+    projects: any[] = [];
+    //readmes: string[] = [];
 
     constructor(private projectservice: projectservice, private http: HttpClient) {
 
@@ -21,7 +22,18 @@ export class projects {
             for (var project of data) {
                 console.log(project);
                 this.projects.push(project);
+
+                /*
+                this.projectservice.getReadMes(project.name).subscribe(data => {
+                    console.log("Fetching readme");
+                    console.log(data);
+                    this.readmes.push(data);
+                })
+                */
             }
+
+            console.log(projects);
+            //console.log(this.readmes);
         })
     }
 }
