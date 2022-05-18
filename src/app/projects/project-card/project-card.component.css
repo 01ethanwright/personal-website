@@ -30,3 +30,11 @@ h5 {
     top: -20px;
     right: -50px;
 }
+
+img {
+    height: 250px;
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}

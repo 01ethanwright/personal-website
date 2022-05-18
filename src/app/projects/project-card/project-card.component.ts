@@ -12,6 +12,7 @@ export class projectcard {
     @Input()    description:string;
     @Input()    languages:string;
     @Input()    pushed:string;
+    @Input()    img:string;
 
     constructor() {
         this.name = "";
@@ -19,5 +20,6 @@ export class projectcard {
         this.description = "";
         this.languages = "";
         this.pushed = "";
+        this.img="";
     }
 }

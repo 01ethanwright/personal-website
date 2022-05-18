@@ -1,7 +1,7 @@
 <h1>GitHub Projects:</h1>
 
 <div class="col" id="projects">
-    <div *ngFor="let project of projects">
-        <project-card name={{project.name}} url={{project.html_url}} description={{project.description}} languages={{project.language}} pushed={{project.pushed_at}}></project-card>
+    <div *ngFor="let repository of repositories">
+        <project-card name={{repository.name}} url={{repository.url}} description={{repository.description}} languages={{repository.languages}} pushed={{repository.pushed}}></project-card>
     </div>
 </div>

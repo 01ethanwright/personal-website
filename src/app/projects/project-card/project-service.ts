@@ -1,6 +1,5 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { projectmodel } from "./project.model";
 
 @Injectable({
     providedIn: 'root'
@@ -9,7 +8,7 @@ import { projectmodel } from "./project.model";
 export class projectservice {
 
     private reposUrl:string = "https://api.github.com/users/01ethanwright/repos";
-    //private readmesUrl:string = "https://raw.githubusercontent.com/01ethanwright/";
+    private readmesUrl:string = "https://raw.githubusercontent.com/01ethanwright/";
 
     constructor (private http: HttpClient) {
 
@@ -19,11 +18,8 @@ export class projectservice {
         return this.http.get<any[]>(this.reposUrl);
     }
 
-    /*
     getReadMes(repoName: string) {
-        console.log(this.readmesUrl + repoName + "/master/README.md");
-        return this.http.get<string>(this.readmesUrl + repoName + "/master/README.md");
+        return this.http.get(this.readmesUrl + repoName + "/master/README.md", {responseType: 'text'})
     }
-    */
 
 }

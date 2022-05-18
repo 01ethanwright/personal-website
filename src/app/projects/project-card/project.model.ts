@@ -4,6 +4,7 @@ export class projectmodel {
     description: string;
     languages: string;
     pushed: string;
+    // img: string;
 
 
     constructor(name: string, url: string, description: string, languages: string, pushed: string) {
@@ -12,5 +13,6 @@ export class projectmodel {
         this.description = description;
         this.languages = languages;
         this.pushed = pushed;
+        // this.img = img;
     }
 }
