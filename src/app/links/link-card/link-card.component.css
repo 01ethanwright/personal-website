@@ -21,7 +21,8 @@ img {
 }
 
 .fw-bold {
-    text-decoration: none;
+    text-decoration: underline;
+    color: black;
 }
 
 .card-title, .fw-bold {
