@@ -1,4 +1,4 @@
-# PersonalWebsite
+# Personal Website
 
 This is a website that I created to show off some of my personal projects and show ways to connect with me. It was created using AngularCLI. This project uses the GitHubAPI in order to populate the "Projects" page.
 
